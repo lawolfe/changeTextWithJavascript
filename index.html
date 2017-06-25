@@ -6,8 +6,23 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+
     <h1 id="heading">Click To Change This Text</h1>
-    <p id="text">But seriously, click here to tell me how you really feel?</p>
+
+    <p id="text">But seriously, click here for a prompt to tell me how you really feel?</p>
+    <hr>
+
+    <form>
+        <textarea id="user-text" name="user-text" rows="5" cols="50" placeholder="Tell me something I don't know."></textarea>
+        <div id="btns">
+            <input id="reset" class="btn" type="reset" value="Reset">
+            <input id="submit" class="btn" type="submit" value="Submit">
+        </div>
+
+        <p id="user-generated"></p>
+    </form>
+
     <script src="script.js" rel="script" type="text/javascript"></script>
+
 </body>
 </html>
