@@ -13,8 +13,7 @@ txt.onclick = function(){
 // Buttons !NOT WORKING!
 var button = document.getElementById("submit");
 button.onclick = function(){
-    var userTxt = document.getElementById("user-text");
+    var userTxt = document.getElementById("user-text").value;
     var userGen = document.getElementById("user-generated");
-
-
+    userGen.innerHTML = userTxt;
 };
