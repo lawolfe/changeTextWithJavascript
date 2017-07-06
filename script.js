@@ -10,7 +10,7 @@ txt.onclick = function(){
     txt.innerHTML = prompt("What would you like to say?");
 };
 
-// Buttons !NOT WORKING!
+// Buttons
 var button = document.getElementById("submit");
 button.onclick = function(){
     var userTxt = document.getElementById("user-text").value;
